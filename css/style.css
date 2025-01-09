@@ -22,7 +22,8 @@ body {
 
 .number-covert {
     height: 51.23px;
-    border: 2px solid #B295FF;
+    border: 3px solid #B295FF;
+    border-radius: 5px;
     width: 100px;
     padding: 10px;
     margin-left: auto;
@@ -36,6 +37,10 @@ body {
 
 }
 
+::placeholder {
+    color:#6943FF
+}
+
 .border {
     text-align: center;
 }
@@ -46,7 +51,7 @@ body {
     background-color: #FFFFFF;
     border: none;
     border-radius: 3px;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .center {
@@ -56,7 +61,7 @@ body {
 .main-ctn {
     background-color: #1F2937;
     height: 650px;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 .ctn-1,
@@ -69,22 +74,22 @@ body {
     background-color: #273549;
 }
 
-.ctn-1 {
-  
-}
 
 .length {
     margin-block-start: 0em;
     padding-top: 30px;
-    color: white
+    color: white;
+    font-size:25px;
 }
 
 .mass {
     padding-top: 30px;
-    color: white
+    color: white;
+    font-size:25px;
 }
 
 .volume {
     padding-top: 30px;
-    color: white
+    color: white;
+    font-size:25px;
 }
