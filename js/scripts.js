@@ -15,7 +15,7 @@ btnEl.addEventListener("click", function () {
     const kilogramUnit = (caughtValue / 2.204).toFixed(3)
 
     cnt1.innerHTML = ` <p class="length">Length (Meter/Feet)</p>
-                                  <p class="length">${caughtValue} meters =${feetUnit} feet | ${caughtValue} feet = ${meterUnit} meters</P>`
+                                  <p class="length">${caughtValue} meters = ${feetUnit} feet | ${caughtValue} feet = ${meterUnit} meters</P>`
     cnt2.innerHTML = ` <p class="volume">Volume (Liters/Gallons)</p>
                                   <p class="volume">${caughtValue} liters = ${gallonUnit} gallons | ${caughtValue} = ${literUnit} liters</P>`
     cnt3.innerHTML = ` <p class="mass">Mass (Kilograms/Pounds)</p>
