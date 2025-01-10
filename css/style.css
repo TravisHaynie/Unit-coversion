@@ -60,7 +60,7 @@ body {
 
 .main-ctn {
     background-color: #1F2937;
-    height: 650px;
+    height: 670px;
     padding-top: 20px;
 }
 
@@ -72,6 +72,7 @@ body {
     margin-left: 24px;
     margin-right: 24px;
     background-color: #273549;
+    border-radius: 5px;
 }
 
 
