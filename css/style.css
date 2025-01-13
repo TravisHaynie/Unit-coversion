@@ -3,42 +3,30 @@ body {
 }
 
 .header {
-    height: 38px;
-    padding-top: 33px;
-    padding-left: 51px;
     font-family: inherit;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 28px;
-    letter-spacing: -3%;
     text-align: center;
     color: #FFFFFF
 }
 
 .header-ctn {
-    height: 300px;
+    padding: 1px;
     background-color: #6943FF;
 }
 
 .number-covert {
-    height: 51.23px;
     border: 3px solid #B295FF;
     border-radius: 5px;
     width: 100px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 7px;
     font-weight: 800;
-    line-height: 50px;
     text-align: center;
     font-size: 50px;
     color: #FFFFFF;
     background-color: #6943FF;
-
 }
 
 ::placeholder {
-    color:#6943FF
+    color: #6943FF
 }
 
 .border {
@@ -46,12 +34,12 @@ body {
 }
 
 #btn-el {
-    height: 42px;
-    width: 117px;
     background-color: #FFFFFF;
     border: none;
     border-radius: 3px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px 10px 15px;
 }
 
 .center {
@@ -60,37 +48,26 @@ body {
 
 .main-ctn {
     background-color: #1F2937;
-    height: 670px;
-    padding-top: 20px;
+    padding: 1px;
 }
 
 .ctn-1,
 .ctn-2,
 .ctn-3 {
     text-align: center;
-    height: 200px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 24px;
     background-color: #273549;
     border-radius: 5px;
+    padding: 1px;
 }
 
-
-.length {
-    margin-block-start: 0em;
-    padding-top: 30px;
-    color: white;
-    font-size:25px;
+.measurment-header {
+    font-size: 25px;
+    color: #CCC1FF
 }
 
-.mass {
-    padding-top: 30px;
+.measurment-data {
     color: white;
-    font-size:25px;
-}
-
-.volume {
-    padding-top: 30px;
-    color: white;
-    font-size:25px;
+    font-size: 20px;
+    color: #FFFFFF
 }
